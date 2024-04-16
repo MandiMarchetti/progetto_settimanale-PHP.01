@@ -59,10 +59,20 @@ try {
         <div class="container">
             <div class="row gap-3">
                 <div>
-                    <h3 class="col mt-4 mb-3">
+                    <h3 class="col mt-4">
                         ALL BOOK CARDS
                         <small class="text-body-secondary">for you update or delete!</small>
                     </h3>
+                </div>
+                <div class="row">
+                    <div>
+                        <h3 class="col mb-3">
+                            IF YOU WANT
+                            <small class="text-body-secondary">Include a new book
+                                <a href="/form.php">RIGHT NOW!</a></small>
+
+                        </h3>
+                    </div>
                 </div>
 
                 <?php
@@ -77,7 +87,6 @@ try {
                     <div class='d-flex gap-3 mt-2'>
                     <a href='http://localhost/progetto_settimanale%20PHP.01/form.php?id={$row['id']}'><button class='btn btn-warning'>Update</button></a>
                     <a href='http://localhost/progetto_settimanale%20PHP.01/delete.php?id={$row['id']}'><button class='btn btn btn-danger'>Delete</button></a>
-                    </td>
                     </div>
                     </div>
                     </div>
@@ -102,16 +111,7 @@ try {
 
 
             </div>
-            <div class="row">
-                <div>
-                    <h3 class="col mt-4 mb-3">
-                        If YOU WANT
-                        <small class="text-body-secondary">Include a new book
-                            <a href="/form.php">RIGHT NOW!</a></small>
 
-                    </h3>
-                </div>
-            </div>
         </div>
         </div>
     </main>
