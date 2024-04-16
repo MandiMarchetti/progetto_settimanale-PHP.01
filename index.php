@@ -69,7 +69,7 @@ try {
                         <h3 class="col mb-3">
                             IF YOU WANT
                             <small class="text-body-secondary">Include a new book
-                                <a href="/form.php">RIGHT NOW!</a></small>
+                                <a href="form.php">RIGHT NOW!</a></small>
 
                         </h3>
                     </div>
